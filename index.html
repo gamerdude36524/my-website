@@ -1,16 +1,14 @@
 <html lang="en">
 
 <head>
-  <title>Thomas - iOS 6 Sounds</title>
+  <title>iOS 6 Sounds</title>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="icon" type="image/x-icon" href="https://thomasluigi07.com/favicon.ico">
-  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <meta content="#2394de" data-react-helmet="true" name="theme-color">
-  <script src="https://thomasluigi07.com/js/sound.js"></script>  
   <meta content="iOS 6 Sounds" property="og:title">
   <meta content="Downloads for iOS 6 Sounds here." property="og:description">
-  <meta content="https://thomasluigi07.com/iOS-6-Sounds" property="og:url">
+  <meta content="https://ios6.thomasluigi07.com/" property="og:url">
   <meta content="https://thomasluigi07.com/iPhoneWebApp/icon.png" property="og:image">
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -21,29 +19,27 @@
 </head>
 
 <body>
-  <audio id="load"><source src="" type="audio/wav"></audio>
-  <audio id="select"><source src="" type="audio/wav"></audio>
-  <audio id="back"><source src="" type="audio/wav"></audio>
-  <audio id="invalid"><source src="" type="audio/wav"></audio>
-  <audio id="leavesite"><source src="" type="audio/wav"></audio>
-  <div class="navbar">
+  <navbar>
     <p>iOS 6 Sounds</p>
-  </div>
-  <div class="content">
-    <h1>iOS 6 Sound Downloads</h1>
-    <br />
-    <p>You can choose between unconverted or converted sounds, or watch the video on youtube for a preview of some sounds.</p>
-    <br />
-    <br />
-    <fieldset>
-      <a href="Sounds_Unconverted/">
+  </navbar>
+    <panel>
+      <label>iOS 6 Sound Downloads</label>
+      <fieldset>
+        <div>
+          <p>You can choose between unconverted or converted sounds, or watch the video on youtube for a preview of some sounds.</p>
+        </div>
+      </fieldset>
+    </panel>
+    <panel>
+      <fieldset>
+      <a href="Sounds_Unconverted/index.html">
         <div>
           <div>
             <label>Unconverted<br></label>
           </div>
         </div>
       </a>
-      <a href="Sounds_Converted/">
+      <a href="Sounds_Converted/index.html">
         <div>
           <div>
             <label>Converted<br></label>
@@ -57,16 +53,22 @@
           </div>
         </div>
       </a>
-      <br />
       <a href="https://thomasluigi07.com">
         <div>
           <div>
-            <label>Go Back<br></label>
+            <label>thomasluigi07.com<br></label>
+          </div>
+        </div>
+      </a>
+      <a href="https://github.com/thomasluigi07/iOS-6-Sounds">
+        <div>
+          <div>
+            <label>Source Code<br></label>
           </div>
         </div>
       </a>
     </fieldset>
-  </div>
+  </panel>
 </body>
 
 </html>
