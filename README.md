@@ -1,4 +1,2 @@
-# iOS-6-Sounds
-iOS 6 Sounds, free to use for anyone.
-Sounds (converted to wav) are located in Sounds_Converted.
-Sounds (in their original filetype) are located in Sounds_Unconverted
+# My Website
+I like the style of iOS 6, but don't know how to make a website that looks like it, so I just stole ThomasLuigi07's iOS 6 Sounds website.
